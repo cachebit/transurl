@@ -1,50 +1,16 @@
 @extends('app')
-@section('title', '漫侣！ 无CP 不漫画！╮(￣▽￣)╭')
+@section('title', '网站升级中，很快回来…… - Larapad 专注中小企业服务。')
 
 @section('content')
 
-  @include('partials._banner')
-
-  @include('partials._promote_contents')
-
-  @include('partials._top_users')
-
-  @include('partials._banner')
-
-  @include('partials._promote_posters')
-
-  @include('partials._lastest_users')
-
-  @include('partials._banner')
-
-  @include('partials._promote_sketches')
-
-  @include('partials._hot_users')
-
-  @include('partials._banner')
-
-  @include('partials._promote_settings')
-
-  @include('partials._hot_users')
-
-  @include('partials._banner')
-
-  @include('partials._lastest_posters')
-
-  @include('partials._lastest_posters')
-
-  @include('partials._banner')
-
-  @include('partials._lastest_settings')
-
-  @include('partials._lastest_settings')
-
-  @include('partials._banner')
-
-  @include('partials._lastest_sketches')
-
-  @include('partials._lastest_sketches')
-
-  @include('partials._banner')
+<div class="col-sm-6 col-sm-offset-3">
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      <br/>
+      <h3 class="panel-title text-center">网站升级中，很快回来……</h3>
+      <br/>
+    </div>
+  </div>
+</div>
 
 @stop

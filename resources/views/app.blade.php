@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>@yield('title', 'CPComic!') - CPComic!</title>
+    <title>@yield('title', '企业网盘') - Larapad 专注企业服务！</title>
     <!-- 最新版本的 Bootstrap 核心 CSS 文件 http://www.bootcdn.cn/ -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <!-- 最新版本的 jquery 文件 http://www.bootcdn.cn/ -->
@@ -13,10 +13,8 @@
   </head>
   <body>
     <div class="container">
-      @include('layouts._header')
-      @include('layouts._nav')
       <div class="row">
-        @include('shared.messages')
+        @include('layouts._nav')
         @yield('content')
       </div>
     </div>

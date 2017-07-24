@@ -17,21 +17,9 @@ class StaticPagesController extends Controller
       return view('static_pages.home');
     }
 
-    public function create()
+    public function job()
     {
-      return view('create.create');
-    }
-
-    public function beans()
-    {
-      Queue::push(function($job)
-      {
-
-        Log::info('beanstaldk 成功记录此消息。');
-
-        $job->delete();
-
-      });
+      return view('static_pages.job');
     }
 
 }
