@@ -11,6 +11,12 @@ use Db;
 
 class FileurlsController extends Controller
 {
+    public function __construct()
+    {
+      $this->middleware('auth', [
+        'only' => ['index', 'create','store','show']
+      ]);
+    }
     /**
      * Display a listing of the resource.
      *
@@ -18,7 +24,7 @@ class FileurlsController extends Controller
      */
     public function index()
     {
-      $urls = Fileurl::all();
+      $urls = Fileurl::all()->orderBy('created_at', 'desc');
       return view('fileurls.index',compact('urls'));
     }
 
