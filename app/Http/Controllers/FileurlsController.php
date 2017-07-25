@@ -23,7 +23,7 @@ class FileurlsController extends Controller
      */
     public function index()
     {
-      $urls = Fileurl::get()->sortByDesc();
+      $urls = Fileurl::all()->sortByDesc('created_at');
       return view('fileurls.index',compact('urls'));
     }
 
