@@ -52,18 +52,8 @@ class UsersController extends Controller
         'name' => $request->name,
         'email' => $request->email,
         'password' => bcrypt($request->password),
-        'portrait_path' => '/img/portrait/user.gif',
       ]);
 
-      //tamprary
-      $user->activated = true;
-      $user->activation_token = null;
-      $user->aesthetic = 100;
-      $user->passion = 100;
-      $user->experience = 0;
-      $user->practice = 0;
-      $user->title = '初来乍到';
-      $user->group = '漫渣';
       $user->save();
 
       Auth::login($user);

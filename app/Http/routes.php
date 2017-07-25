@@ -13,7 +13,9 @@
 
 //navs
 Route::get('/','StaticPagesController@home')->name('home');
-Route::get('job','StaticPagesController@job')->name('job');
+Route::get('transurls/see','TransurlsController@see')->name('transurls.see');
+Route::resource('transurls', 'TransurlsController');
+Route::resource('fileurls', 'FileurlsController');
 
 //users
 Route::get('signup', 'UsersController@create')->name('signup');

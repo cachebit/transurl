@@ -3,13 +3,12 @@
 
 @section('content')
 <div class="row">
-  <div class="col-sm-offset-4 col-sm-8">
+  <div class="col-sm-offset-3 col-sm-6">
     <div class="panel panel-default">
       <div class="panel-heading">
         <h5>Sign In</h5>
       </div>
       <div class="panel-body">
-        @include('shared.errors')
 
         <form method="post" action="{{ route('signin') }}">
           {{ csrf_field() }}

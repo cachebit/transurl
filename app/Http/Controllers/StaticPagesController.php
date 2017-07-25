@@ -17,9 +17,4 @@ class StaticPagesController extends Controller
       return view('static_pages.home');
     }
 
-    public function job()
-    {
-      return view('static_pages.job');
-    }
-
 }
