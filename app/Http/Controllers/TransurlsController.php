@@ -26,7 +26,7 @@ class TransurlsController extends Controller
      */
     public function index()
     {
-        $transurls = Transurl::orderBy('created_at', 'desc')->all();
+        $transurls = Transurl::get()->orderBy('created_at', 'desc');
         return view('transurls.index',compact('transurls'));
     }
 

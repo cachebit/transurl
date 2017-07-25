@@ -7,7 +7,6 @@ use Illuminate\Http\Request;
 use App\Fileurl;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-use Db;
 
 class FileurlsController extends Controller
 {
@@ -24,7 +23,7 @@ class FileurlsController extends Controller
      */
     public function index()
     {
-      $urls = Fileurl::orderBy('created_at', 'desc')->all();
+      $urls = Fileurl::get()->orderBy('created_at', 'desc');
       return view('fileurls.index',compact('urls'));
     }
 
