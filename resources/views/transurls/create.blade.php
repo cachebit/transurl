@@ -102,7 +102,7 @@
       <ul>
         <li>本招聘有效期至：2017年8月15日23：59。</li>
         <li>诚邀各界精英合作，携手共创未来。</li>
-        <li>larapad.com 保留最终解释权利。</li>
+        <li>本公司保留最终解释权利。</li>
       </ul>
       <br/>
       <img src="/img/handshake.jpg" alt="" class="img-responsive">
