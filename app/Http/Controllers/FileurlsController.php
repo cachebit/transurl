@@ -24,7 +24,7 @@ class FileurlsController extends Controller
      */
     public function index()
     {
-      $urls = Fileurl::all()->get()->orderBy('created_at', 'desc');
+      $urls = Fileurl::orderBy('created_at', 'desc')->all();
       return view('fileurls.index',compact('urls'));
     }
 
