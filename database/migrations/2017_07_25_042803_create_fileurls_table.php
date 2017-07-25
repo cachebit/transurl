@@ -14,6 +14,7 @@ class CreateFileurlsTable extends Migration
     {
         Schema::create('fileurls', function (Blueprint $table) {
             $table->increments('id');
+            $table->integer('transurl_id')->unsigned();
             $table->string('title');
             $table->string('description');
             $table->string('url');

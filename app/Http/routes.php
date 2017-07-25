@@ -13,7 +13,7 @@
 
 //navs
 Route::get('/','StaticPagesController@home')->name('home');
-Route::get('transurls/see','TransurlsController@see')->name('transurls.see');
+Route::get('transurls/outofurl','TransurlsController@outofurl')->name('transurls.outofurl');
 Route::resource('transurls', 'TransurlsController');
 Route::resource('fileurls', 'FileurlsController');
 

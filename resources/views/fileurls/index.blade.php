@@ -21,7 +21,13 @@
           <td>{{ $transurl->id }}</td>
           <td>{{ $transurl->title }}</td>
           <td>{{ $transurl->description }}</td>
-          <td>{{ $transurl->taken }}</td>
+          <td>
+            @if($transurl->taken)
+              已发包
+            @else
+              <b class="text-danger">未发包</b>
+            @endif
+          </td>
         </tr>
         @endforeach
       </table>

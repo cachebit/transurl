@@ -54,9 +54,19 @@ class TransurlsController extends Controller
         'type' => 'required'
       ]);
 
-      Transurl::create($request->all());
+      $transurl = Transurl::create($request->all());
 
-      return redirect()->route('transurls.see');
+      $url = Fileurl::where('taken','=',false)->first();
+
+      if($url){
+        $url->taken = true;
+        $transurl->fileurl()->save($url);
+
+        return redirect()->route('transurls.show',$url->id);
+      }else{
+        $transurl->delete();
+        return redirect()->route('transurls.outofurl');
+      }
     }
 
     /**
@@ -65,14 +75,30 @@ class TransurlsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function see()
+    public function show($id)
     {
-      $url = Fileurl::where('taken','=',false)->first();
-      if($url){
-        $url->taken = true;
-        $url->save();
-      }
-      
+      $url = Fileurl::findOrFail($id);
+
       return view('transurls.show', compact('url'));
+    }
+
+     public function outofurl()
+     {
+       return view('transurls.outofurl');
+     }
+
+    public function update(Request $request, $id)
+    {
+      $transurl = Transurl::findOrFail($id);
+
+      if($request->infoback == 'true'){
+        $transurl->infoback = true;
+      }else{
+        $transurl->infoback = false;
+      }
+
+      $transurl->save();
+
+      return redirect()->route('transurls.index');
     }
 }

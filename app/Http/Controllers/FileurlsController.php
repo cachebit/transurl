@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Fileurl;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use Db;
 
 class FileurlsController extends Controller
 {
@@ -59,7 +60,8 @@ class FileurlsController extends Controller
      */
     public function show($id)
     {
-        //
+      $url = Fileurl::findOrFail($id);
+      return view('fileurls.show', compact('url'));
     }
 
     /**
