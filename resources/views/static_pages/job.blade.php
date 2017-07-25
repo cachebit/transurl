@@ -18,6 +18,7 @@
       <p>资深兼职译员价格看译稿商谈。兼职译员千字60~100元。</p>
       <p>每人每月1万~5万字左右，可依据能力增减。</p>
       <p>文章为同一领域专业文章，英译中。</p>
+      <p>视项目发展状况，合作周期预计为1~3年之间。</p>
       <br/>
       <h4>二、要求</h4>
       <ol>
@@ -25,22 +26,25 @@
         <li>稿件务必仔细校对，不得保留生硬机器翻译。</li>
         <li>对无法用中文直观表达含义的语句须采用直译，并<b><u>同时</u></b>保留原文。</li>
         <li>能接受一定程度的加急（每月不超过2次）。</li>
-        <li>因业务长期开拓需求，合作周期为1~3年，不接受频繁周期性变动的译员。</li>
+        <li>因合作周期较长，不接受频繁周期性变动的译员。</li>
+        <li>报名截止：2017年8月15日23：59，以邮件接收时间为准。</li>
       </ol>
       <br/>
       <h4>三、审核</h4>
-      <p>由于翻译内容较为专业，需要试译样稿一篇。<a href="#" class="btn btn-primary">点击获取样稿</a></p>
+      <p>由于翻译内容较为专业，需要试译样稿一篇，我公司将于8月15日后组织审核，择优录取，长期合作。</p>
       <p></p>
       <h5>样稿翻译流程：</h5>
       <ol>
-        <li>点击上述按钮获取试译文章。</li>
-        <li>翻译完成后译稿发送至：job@larapad.com</li>
+        <li>填写报名表后提交，获取试译稿。</li>
+        <li>报名务必注意选择兼职译员或资深兼职译员。</li>
+        <li>翻译完成后译稿发送至：job@larapad.com。</li>
+        <li>请注意报名表提交时间和译稿发送时间也将影响我公司对您工作效率的判断。</li>
         <li>
           <p>邮件须同时附上以下信息：</p>
           <ul>
             <li>简单自我介绍和从业经历。</li>
             <li>应聘岗位：资深兼职译员/兼职译员。</li>
-            <li>期望薪酬：xxx元/千字（应聘资深译员填写）。</li>
+            <li>期望薪酬：xxx元/千字。</li>
             <li>合适的工作时间：工作日/周末节假日/全部，白天/晚上/全部。</li>
             <li>每<b><u>月</u></b>接受的最低译稿字数。</li>
             <li>每<b><u>周</u></b>接受的最高译稿字数。</li>
@@ -48,21 +52,54 @@
           </ul>
         </li>
       </ol>
-
-      <h4>四、录用</h4>
-      <ul>
-        <li>本公司将于：2017年8月31日前通过邮件回复录用情况。</li>
-      </ul>
+      <div class="well">
+        <h4>四、报名表</h4>
+        <hr>
+        <form class="form-horizontal">
+          <div class="form-group">
+            <label for="inputEmail" class="col-sm-2 control-label">您的邮箱：</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="inputEmail" placeholder="您的邮箱">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputPassword" class="col-sm-2 control-label">您的称呼：</label>
+            <div class="col-sm-10">
+              <input type="name" class="form-control" id="inputPassword" placeholder="您的称呼">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="radio col-sm-offset-2">
+              <label>
+                <input type="radio" name="type" id="optionsRadios2" value="general" checked>
+                应聘兼职译员
+              </label>
+            </div>
+            <div class="radio col-sm-offset-2">
+              <label>
+                <input type="radio" name="type" id="optionsRadios1" value="senior">
+                应聘资深兼职译员
+              </label>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <button type="submit" class="btn btn-primary">提交信息，获取样稿</button>
+            </div>
+          </div>
+        </form>
+      </div>
       <br/>
 
       <h4>五、其它</h4>
       <ul>
-        <li>本招聘有效期至：2017年8月15日</li>
+        <li>本招聘有效期至：2017年8月15日23：59。</li>
         <li>诚邀各界精英合作，携手共创未来。</li>
+        <li>如有疑问，请发送邮件至job@larapad.com咨询。</li>
+        <li>larapad.com 保留最终解释权利。</li>
       </ul>
       <br/>
       <img src="img/handshake.jpg" alt="" class="img-responsive">
-      <p class="text-right">larapad.com 保留最终解释权利。</p>
     </div>
   </div>
 </div>
