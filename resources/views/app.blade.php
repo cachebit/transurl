@@ -32,7 +32,7 @@
         expires: '86400000',
         trigger: 'load',
         invitecode: '2333374a-e79b-4364-961f-85b1e4934a52',
-        title: '最后一步，请输入邮箱，点击确认，及时获取通知！',
+        title: '重要！！！由于邮件系统原因，请确认核实您的邮箱，确保获取通知！',
         successMsg: '请登录邮箱，在收到的确认邮件中，点击确认链接'
     }
     sendcloud.subscribe(option)
