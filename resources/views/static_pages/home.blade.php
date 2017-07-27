@@ -7,7 +7,7 @@
   <div class="panel panel-danger">
     <div class="panel-heading">
       <br/>
-      <h3 class="panel-title text-center">因业务结构调整，网站升级中，很快回来:)</h3>
+      <h3 class="panel-title text-center">改版中，很快回来  (ง •̀_•́)ง </h3>
       <br/>
     </div>
   </div>

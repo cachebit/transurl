@@ -9,10 +9,10 @@
 
   <nav>
     <ul class="nav nav-pills">
-      <li role="presentation"><a href="/">公司首页</a></li>
-      <li role="presentation"><a href="/">公司历程</a></li>
-      <li role="presentation"><a href="/">产品业务</a></li>
-      <li role="presentation"><a href="/">关于我们</a></li>
+      <li role="presentation"><a href="/">首页</a></li>
+      <li role="presentation"><a href="/">摸鱼</a></li>
+      <li role="presentation"><a href="/">教程</a></li>
+      <li role="presentation"><a href="/">扩列</a></li>
       <li role="presentation"><a href="{{ route('transurls.create') }}">加入我们</a></li>
     </ul>
   </nav>
