@@ -13,9 +13,11 @@
         @if($url != null)
         <p>链接：<a href="{{ $url->url }}" target="_blank">{{ $url->url }}</a> 密码：{{ $url->password }}</p>
         @else
-        <p>您来晚了，报名已达上限。如有疑问请发送邮件至：<br/>job@larapad.com</p>
+        <p>抱歉！系统维护中，请明天再试。如有疑问请发送邮件至：<br/>yep@yeppod.com</p>
         @endif
       </div>
+
+      @include('shared.notification')
     </div>
   </div>
 </div>
