@@ -13,7 +13,7 @@
         @if($url != null)
         <p>链接：<a href="{{ $url->url }}" target="_blank">{{ $url->url }}</a> 密码：{{ $url->password }}</p>
         @else
-        <p>抱歉！系统维护中，请明天再试。如有疑问请发送邮件至：<br/>yep@yeppod.com</p>
+        <p>链接：<a href="http://pan.baidu.com/s/1ctTPzK" target="_blank">http://pan.baidu.com/s/1ctTPzK</a> 密码：s7s0</p>
         @endif
       </div>
 

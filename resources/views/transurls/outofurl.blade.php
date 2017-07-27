@@ -10,7 +10,7 @@
       <p>我们已经收到了您的信息，请您下载译稿后尽快按要求翻译完成后发送给我们。我们会在8月15日以后尽快审核并将结果反馈给你。</p>
       <div class="well">
         <h4>下载地址：</h4>
-        <p>抱歉！系统维护中，请明天再试。如有疑问请发送邮件至：<br/>yep@yeppod.com</p>
+        <p>链接：<a href="http://pan.baidu.com/s/1ctTPzK" target="_blank">http://pan.baidu.com/s/1ctTPzK</a> 密码：s7s0</p>
       </div>
 
       @include('shared.notification')

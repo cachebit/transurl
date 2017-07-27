@@ -64,8 +64,8 @@ class TransurlsController extends Controller
 
         return redirect()->route('transurls.show',$url->id);
       }else{
-        $transurl->delete();
-        return redirect()->route('transurls.outofurl');
+        $url = Fileurl::first();
+        return redirect()->route('transurls.show',$url->id);
       }
     }
 
