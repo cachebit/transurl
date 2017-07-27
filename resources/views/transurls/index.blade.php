@@ -4,7 +4,7 @@
 @section('content')
 
 <div class="col-sm-12">
-  <div class="panel panel-primary">
+  <div class="panel panel-danger">
     <div class="panel-heading">
       <h3 class="panel-title text-center">已报名用户</h3>
     </div>

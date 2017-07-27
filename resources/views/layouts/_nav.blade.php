@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col-xs-8">
       <br/>
-      <img src="/banner.png" class="img-responsive"/>
+      <img src="/cpbanner.png" class="img-responsive"/>
       <br/>
     </div>
   </div>

@@ -6,7 +6,7 @@
 <div class="col-sm-6 col-sm-offset-3">
   @include('shared.errors')
   @include('shared.messages')
-  <div class="panel panel-primary">
+  <div class="panel panel-danger">
     <div class="panel-heading">
       <h3 class="panel-title text-center">发布文章</h3>
     </div>
@@ -35,7 +35,7 @@
           <input class="form-control" type="text" name="password" value="">
         </div>
 
-        <button type="submit" class="btn btn-block btn-lg btn-primary">提交</button>
+        <button type="submit" class="btn btn-block btn-lg btn-danger">提交</button>
 
       </form>
     </div>
