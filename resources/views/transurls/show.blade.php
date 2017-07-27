@@ -9,7 +9,7 @@
       <h1>十分感谢！</h1>
       <p>我们已经收到了您的信息，请您下载译稿后尽快按要求翻译完成后发送给我们。我们会在8月15日以后尽快审核并将结果反馈给你。</p>
       <div class="well">
-        <h4>下载地址：</h4>
+        <h4>试译稿下载地址：</h4>
         @if($url != null)
         <p>链接：<a href="{{ $url->url }}" target="_blank">{{ $url->url }}</a> 密码：{{ $url->password }}</p>
         @else
