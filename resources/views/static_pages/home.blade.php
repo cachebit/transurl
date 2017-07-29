@@ -4,7 +4,7 @@
 @section('content')
 
 <div class="col-sm-6 col-sm-offset-3">
-  <div class="panel panel-primary">
+  <div class="panel panel-info">
     <div class="panel-heading">
       <br/>
       <h3 class="panel-title text-center">因业务结构调整，网站升级中，很快回来:)</h3>

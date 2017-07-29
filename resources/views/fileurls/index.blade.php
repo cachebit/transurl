@@ -4,7 +4,7 @@
 @section('content')
 
 <div class="col-sm-8 col-sm-offset-2">
-  <div class="panel panel-primary">
+  <div class="panel panel-info">
     <div class="panel-heading">
       <h3 class="panel-title text-center">
         已发布文章

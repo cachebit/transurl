@@ -4,7 +4,7 @@
 @section('content')
 
 <div class="col-sm-6 col-sm-offset-3">
-  <div class="panel panel-primary">
+  <div class="panel panel-info">
     <div class="panel-body">
       <h3>{{ $url->title }}</h3>
       <hr/>
