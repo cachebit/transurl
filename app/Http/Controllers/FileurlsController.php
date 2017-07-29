@@ -69,6 +69,20 @@ class FileurlsController extends Controller
       return view('fileurls.show', compact('url'));
     }
 
+    public function reset()
+    {
+      $urls = Fileurl::where('taken','=',true)->get();
+
+      if($url->count()){
+        foreach($urls as $url){
+          $url->taken = false;
+          $url->save();
+        }
+      }
+
+      return redirect()->route('fileurls.index');
+    }
+
     /**
      * Show the form for editing the specified resource.
      *

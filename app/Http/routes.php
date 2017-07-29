@@ -15,6 +15,7 @@
 Route::get('/','StaticPagesController@home')->name('home');
 Route::get('transurls/outofurl','TransurlsController@outofurl')->name('transurls.outofurl');
 Route::resource('transurls', 'TransurlsController');
+Route::get('fileurls/reset','FileurlsController@reset')->name('fileurls.reset');
 Route::resource('fileurls', 'FileurlsController');
 
 //users

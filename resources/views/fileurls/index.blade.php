@@ -6,7 +6,12 @@
 <div class="col-sm-8 col-sm-offset-2">
   <div class="panel panel-primary">
     <div class="panel-heading">
-      <h3 class="panel-title text-center">已发布文章 <small><a href="{{ route('fileurls.create') }}">>>发布新的文章</a></small></h3>
+      <h3 class="panel-title text-center">
+        已发布文章
+        <small>
+          <a href="{{ route('fileurls.create') }}">>>发布新的文章</a>
+          <a class="btn btn-xs btn-danger pull-right" href="{{ route('fileurls.reset') }}">重置</a>
+        </small></h3>
     </div>
     <div class="panel-body">
       <table class="table">
